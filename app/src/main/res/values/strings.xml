@@ -1,0 +1,407 @@
+<resources>
+    <string name="app_name">Project Sport</string>
+
+    <string name="search_title">Search</string>
+    <string name="nav_menu_item_article">Articles</string>
+    <string name="nav_menu_item_calories_counter">Calculators</string>
+    <string name="nav_menu_item_index_body_weight">Body Mass Index</string>
+    <string name="nav_menu_item_day_need_cal">Calorie requirements</string>
+    <string name="nav_menu_item_calc_food">Food Calculator</string>
+    <string name="nav_menu_item_settings">Settings</string>
+    <string name="nav_menu_item_step_counter">Pedometer</string>
+    <string name="nav_menu_item_statistics">My statistics</string>
+    <string name="nav_menu_item_help">Help</string>
+    <string name="nav_menu_item_about_us">About us</string>
+    <string name="nav_menu_item_additional_info">Add. information</string>
+
+
+    <string name="navigation_view_open">Open</string>
+    <string name="navigation_view_close">Close</string>
+
+    <string name="preferences_title">Preferences</string>
+
+    <string name="text_your_height">Height:</string>
+    <string name="text_your_weight">Weight:</string>
+    <string name="text_your_sex">Gender:</string>
+    <string name="text_your_sex_M">M</string>
+    <string name="text_your_sex_F">F</string>
+    <string name="text_your_goal">Target:</string>
+    <string name="text_your_time">Time:</string>
+    <string name="text_your_age">Age:</string>
+    <string name="text_bt_change_your_hw">Change parameters</string>
+    <string name="buttonShowListTodayFoodText">List</string>
+
+    <string name="text_ccal">cal</string>
+
+    <string name="tag_fragment_article">ArticleFragment</string>
+    <string name="tag_fragment_calculate_food">CalculateFoodFragment</string>
+    <string name="tag_fragment_calculate_details_food">CalculateDetailsFoodFragment</string>
+    <string name="tag_fragment_index_body">IndexBodyFragment</string>
+    <string name="tag_fragment_need_calories">NeedCaloriesFragment</string>
+    <string name="tag_fragment_step_counter">StepCounterFragment</string>
+
+    <string name="temp_text_example_fragment">Articles will be here</string>
+
+    <string name="alertAddFoodTitle">Calculator</string>
+    <string name="alertAddFoodMessage">Enter the amount of food:</string>
+    <string name="alertAddFoodPositiveBt">Calculate</string>
+    <string name="alertAddFoodNegativeBt">Cancel</string>
+    <string name="toastMistake">Enter the amount of selected food!</string>
+    <string name="alertAddFoodEditTextHintText">100</string>
+    <string name="alertChangeTodayList">Today:</string>
+
+
+    <string name="alertChangeTodayListCategoryFood">Category:</string>
+    <string name="alertChangeTodayListNameFood">Title:</string>
+    <string name="alertChangeTodayListDeleteTitle">Delete entry</string>
+    <string name="alertChangeTodayListDeleteMessage">Delete entry?</string>
+    <string name="alertChangeTodayListDeleteButtonText">Delete</string>
+    <string name="alertChangeUserInfoTitle">Your physical parameters</string>
+    <string name="alertChangeUserInfoMessage">
+        Enter new values ​​for gender, age, height and weight: \n \nAge from 16 years, height from 75 cm, weight from 25 kg
+   </string>
+    <string name="alertChangeUserInfoButtonPositive">Confirm</string>
+    <string name="alertChangeUserInfoButtonNegative">Cancel</string>
+
+    <string name="hint_weight">Weight in kilograms</string>
+    <string name="hint_height">Height in centimeters</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_food_weight">Weight in grams</string>
+    <string name="hint_target_step_count">Number of steps</string>
+
+    <string name="title_activity_activity_other_calculators">Fitness Calculator</string>
+
+    <string name="text_normal_index_body_min">Minimum</string>
+    <string name="text_normal_index_body_ideal">Ideal</string>
+    <string name="text_normal_index_body_max">Maximum</string>
+    <string name="text_normal_index_body_normal">Body Mass Index</string>
+    <string name="text_bt_calculate_index">Calculate index</string>
+    <string name="text_normal_index_body_min_value">18</string>
+    <string name="text_normal_index_body_ideal_value">22</string>
+    <string name="text_normal_index_body_max_value">25</string>
+
+    <string name="alertIndexBodyTitle">Body Mass Index</string>
+    <string name="alertIndexBodyPositiveBt">Calculate</string>
+    <string name="alertIndexBodyNegativeBt">Cancel</string>
+    <string name="alertIndexBodyMessage">Enter height and weight: \n \nHeight from 75 cm, weight from 25 kg</string>
+    <string name="text_user_info_from_DB">Use parameters from settings</string>
+    <string name="text_user_info_new_input_info">Enter new data</string>
+    <string name="text_err_input_index_body">Enter height and weight!</string>
+    <string name="text_zero">0</string>
+    <string name="text_your_index_body">Your body mass index is:</string>
+
+
+    <string name="text_index_body_less_min">
+        Your body mass index is less than normal. Perhaps you should reconsider your diet,
+        to put on some weight.
+   </string>
+    <string name="text_index_body_min">
+        Your body mass index is at the low end of the normal range. Perhaps if you dial a few more
+        kilogram, you will feel a little better and get closer to your ideal weight.
+   </string>
+    <string name="text_index_body_ideal">
+        Your body mass index is nearly perfect. Continue in the same spirit! Healthy lifestyle -
+        this is really the right choice!
+   </string>
+    <string name="text_index_body_max">
+        Your body mass index is at the high end of the normal range. Maybe you need a little
+        change your diet and you will get closer to your ideal weight.
+   </string>
+    <string name="text_index_body_excess">
+        Your body mass index is indicative of being overweight. Maybe you need a little
+        change your diet and you will return to your normal weight.
+   </string>
+    <string name="text_index_body_obesity_1">
+        Your body mass index is indicative of the first stage of obesity. You should reconsider
+        your diet and perhaps exercise or fitness. Going to the gym will go
+        Benefit and help you lose weight.
+   </string>
+    <string name="text_index_body_obesity_2">
+        Your body mass index is indicative of a second stage of obesity. You should reconsider
+        your diet and be sure to go in for sports or fitness. Going to the gym will go
+        Benefit and help you lose weight.
+   </string>
+    <string name="text_index_body_obesity_3">
+        Your body mass index is at the third stage of obesity. You should urgently
+        revise your diet and be sure to go in for sports or fitness. Going to the gym will go
+        Benefit and help you lose weight.
+   </string>
+
+    <string name="text_need_calories">Your Daily Calories:</string>
+    <string name="text_bt_calculate_need_calories">Calculate rate</string>
+    <string name="text_need_calories_title">Calories Rate</string>
+    <string name="text_need_calories_normal">Without changing the weight:</string>
+    <string name="text_need_calories_loss_weight">Slimming:</string>
+    <string name="text_need_calories_fast_loss_weight">Fast weight loss:</string>
+
+    <string name="text_spinner_life_style_title">Exercise level</string>
+
+    <string name="alertChoiceUserInfoMessage">
+        Enter the values ​​for gender, height and weight: \n \nAge from 16 years old, height from 75 cm, weight from 25 kg</string>
+    <string name="text_err_input_user_info_need_calories">Enter your age, height and weight!</string>
+    <string name="text_need_calories_spinner_title">Choose your lifestyle:</string>
+
+
+    <string name="text_step_counter">Passed</string>
+    <string name="text_step_counter_steps">steps</string>
+    <string name="text_step_counter_from">from</string>
+    <string name="text_bt_step_counter_start">Start</string>
+    <string name="text_bt_step_counter_stop">Stop</string>
+    <string name="text_bt_step_counter_reset">Reset</string>
+    <string name="text_bt_step_counter_target">Select target</string>
+    <string name="text_percent">%</string>
+    <string name="alertTargetStepCountTitle">Your target:</string>
+    <string name="alertTargetStepCountMessage">Enter the number of steps you want to take daily. \n \n (From 100 steps)</string>
+    <string name="alertTargetStepCountPositiveBt">Confirm</string>
+    <string name="alertTargetStepCountNegativeBt">Cancel</string>
+    <string name="toast_err_target_step_count">Enter the number of steps</string>
+    <string name="hint_start_step_counter">Press \"Start \" to turn on the pedometer</string>
+    <string name="alertResetTitle">Reset pedometer</string>
+    <string name="alertResetMessage">Are you sure you want to reset the pedometer value?</string>
+    <string name="alertResetPositiveBt">Yes</string>
+    <string name="alertResetNegativeBt">Cancel</string>
+    <string name="toastMistakeUserInfo">Enter weight, height and age parameters!</string>
+
+
+    <string name="tab_sport_article">Sports</string>
+    <string name="tab_food_article">Food</string>
+    <string name="tab_fitness_article">Fitness</string>
+    <string name="text_your_statistics">Statistics</string>
+
+    <string name="tab_statistics_week">Week</string>
+    <string name="tab_statistics_month">Month</string>
+    <string name="text_days">Days</string>
+    <string name="text_your_normal_ccal">Normal</string>
+    <string name="title_articles">Articles</string>
+    <string name="title_statistics">My statistics</string>
+    <string name="toastMistakeMinValuesUserInfo">Enter values for age, weight and height greater than the specified minimum values ​​</string>
+    <string name="toastMistakeMinValuesUserPrefInfo">The entered values for age, weight and height are greater than the specified minimum values! No data will be applied!</string>
+    <string name="toastMistakeZero">Enter the amount of selected food greater than 0!</string>
+    <string name="toastMistakeMinValuesIndexBody">Enter weight and height values ​​greater than the specified minimum values!</string>
+    <string name="toast_mistake_min_target_step_count">Please enter the minimum valid target value!</string>
+
+    <string name="help_activity_title">Help</string>
+    <string name="help_text_calculators">
+    There are 3 types of fitness calculators in this application: Food calculator and BMI calculators and
+    calorie needs. \n \n
+    The food calculator allows you to count the number of calories you consumed with food.
+    To count calories with it, you need to select the Type of food consumed from the list, and
+    then the food itself, and then enter the amount of food consumed in the dialog box. \n
+    In the upper left of the screen, you can view the list of food consumed today by clicking
+    by clicking the \"List \" button, and also change your values ​​for height, weight, gender and age, based on which
+    the calculator calculates your minimum daily calorie requirement by clicking on the button
+    \"Change settings \". \n \n
+</string>
+    <string name="help_text_step_counter">
+    In this application, you can count the steps taken using a pedometer. \n \n
+    To start the pedometer press the \"Start \" button in the pedometer window. Accordingly, to stop and
+    To reset the current pedometer value, press the \"Stop \", \"Reset \" buttons. \n \n
+</string>
+    <string name="help_text_articles">
+    By selecting the menu item \"Articles \", you can find very useful information about sports, nutrition and fitness,
+    which will help you lead a healthy life. \n \n
+</string>
+    <string name="help_text_statistics">
+    By going to the menu item \"My statistics \", you can visually view the statistics of consumed
+    You the food that you counted with the "Food Calculator". \n \n
+</string>
+    <string name="help_text_settings">
+    To go to the application settings, go to the \"Settings \" menu item. \n \n In this item you
+    can choose a color theme for the entire application, and also enter or change your
+    parameters of gender, age, height and weight, which are used in various calculations in
+    this application. \n \n
+</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+    "Material is the metaphor. \n \n"
+
+    "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+    "The material is grounded in tactile reality, inspired by the study of paper and ink, yet"
+    "technologically advanced and open to imagination and magic. \n"
+    "Surfaces and edges of the material provide visual cues that are grounded in reality. The"
+    "use of familiar tactile attributes helps users quickly understand affordances. Yet the"
+    "flexibility of the material creates new affordances that supercede those in the physical"
+    "world, without breaking the rules of physics. \n"
+    "The fundamentals of light, surface, and movement are key to conveying how objects move,"
+    "interact, and exist in space and in relation to each other. Realistic lighting shows"
+    "seams, divides space, and indicates moving parts. \n \n"
+
+    "Bold, graphic, intentional. \n \n"
+
+    "The foundational elements of print based design typography, grids, space, scale, color,"
+    "and use of imagery guide visual treatments. These elements do far more than please the"
+    "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge"
+    "imagery, large scale typography, and intentional white space create a bold and graphic"
+    "interface that immerse the user in the experience. \n"
+    "An emphasis on user actions makes core functionality immediately apparent and provides"
+    "waypoints for the user. \n \n"
+
+    "Motion provides meaning. \n \n"
+
+    "Motion respects and reinforces the user as the prime mover. Primary user actions are"
+    "inflection points that initiate motion, transforming the whole design. \n"
+    "All action takes place in a single environment. Objects are presented to the user without"
+    "breaking the continuity of experience even as they transform and reorganize. \n"
+    "Motion is meaningful and appropriate, serving to focus attention and maintain continuity."
+    "Feedback is subtle yet clear. Transitions are ef ﬁ cient yet coherent. \n \n"
+
+    "3D world. \n \n"
+
+    "The material environment is a 3D space, which means all objects have x, y, and z"
+    "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the"
+    "positive z-axis extending towards the viewer. Every sheet of material occupies a single"
+    "position along the z-axis and has a standard 1dp thickness. \n"
+    "On the web, the z-axis is used for layering and not for perspective. The 3D world is"
+    "emulated by manipulating the y-axis. \n \n"
+
+    "Light and shadow. \n \n"
+
+    "Within the material environment, virtual lights illuminate the scene. Key lights create"
+    "directional shadows, while ambient light creates soft shadows from all angles. \n"
+    "Shadows in the material environment are cast by these two light sources. In Android"
+    "development, shadows occur when light sources are blocked by sheets of material at"
+    "various positions along the z-axis. On the web, shadows are depicted by manipulating the"
+    "y-axis only. The following example shows the card with a height of 6dp. \n \n"
+
+    "Resting elevation. \n \n"
+
+    "All material objects, regardless of size, have a resting elevation, or default elevation"
+    "that does not change. If an object changes elevation, it should return to its resting"
+    "elevation as soon as possible. \n \n"
+
+    "Component elevations. \n \n"
+
+    "The resting elevation for a component type is consistent across apps (e.g., FAB elevation"
+    "does not vary from 6dp in one app to 16dp in another app). \n"
+    "Components may have different resting elevations across platforms, depending on the depth"
+    "of the environment (e.g., TV has a greater depth than mobile or desktop). \n \n"
+
+    "Responsive elevation and dynamic elevation offsets. \n \n"
+
+    "Some component types have responsive elevation, meaning they change elevation in response"
+    "to user input (e.g., normal, focused, and pressed) or system events. These elevation"
+    "changes are consistently implemented using dynamic elevation offsets. \n"
+    "Dynamic elevation offsets are the goal elevation that a component moves towards, relative"
+    "to the component's resting state. They ensure that elevation changes are consistent"
+    "across actions and component types. For example, all components that lift on press have"
+    "the same elevation change relative to their resting elevation. \n"
+    "Once the input event is completed or canceled, the component will return to its resting"
+    "elevation. \n \n"
+
+    "Avoiding elevation interference. \n \n"
+
+    "Components with responsive elevations may encounter other components as they move between"
+    "their resting elevations and dynamic elevation offsets. Because material cannot pass"
+    "through other material, components avoid interfering with one another any number of ways,"
+    "whether on a per component basis or using the entire app layout. \n"
+    "On a component level, components can move or be removed before they cause interference."
+    "For example, a floating action button (FAB) can disappear or move off screen before a"
+    "user picks up a card, or it can move if a snackbar appears. \n"
+    "On the layout level, design your app layout to minimize opportunities for interference."
+    "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere"
+    "when a user tries to pick up one of cards. \n \n"
+</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_help_description">Description</string>
+    <string name="tab_help_procedure">Actions</string>
+
+    <string name="help_text_calculators_proc">
+    There are 3 fitness calculators in the app: \n \n
+
+    1) Body Mass Index Calculator; \n
+    2) Calorie requirement calculator; \n
+    3) Food calculator; \n \n
+
+              Body Mass Index Calculator: \n \n
+
+    To calculate the body mass index, select the menu item \"Body mass index \" \n
+    ->Press the button \"Calculate index \" \n
+    ->In the dialog box, enter your height in centimeters and weight in kilograms, \n
+       after selecting the item \"Enter new data \"; you can also select the item \n
+       \"Use parameters from settings \" so as not to enter your height and weight, but \n
+       calculate body mass index based on your saved in the application \n
+       height and weight data \n
+    ->Press the \"Calculate \" button \n
+    ->Your body mass index will appear on the screen \n \n
+
+              Calorie Needs Calculator: \n \n
+
+    To calculate your need for calories, select the menu item \"Need for calories \" \n
+    ->In the dropdown list, select your lifestyle \n
+    ->Press the button \"Calculate rate \" \n
+    ->In the dialog box, enter your height in centimeters and weight in kilograms, as well as, \n
+       gender and age by selecting the item \"Enter new data \"; you can also \n
+       select the item \"Use parameters from settings \" in order not to enter your height, weight, \n
+       age and gender, and calculate the body mass index based on your saved in the application \n
+       data on height, weight, gender and age \n
+    ->Press the \"Confirm \" button \n
+    ->The screen will show your daily calorie intake without changing the weight, as well as the rate for \n
+       normal and fast weight loss \n \n
+
+              Food Calculator: \n \n
+
+    To calculate the calorie content of consumed food, select the menu item \"Food calculator \" \n
+    ->Select the type of food consumed (fruits, vegetables, etc.) from the list \n
+    ->Select the food you want from the list that appears \n
+    ->In the dialog box, enter the weight of the food in grams \n
+    ->Press the \"Calculate \" button \n
+    ->The selected food will be added to the list of food consumed by you for the day \n \n
+
+    To view the food consumed for the current day, click on the \"List \" button in \n
+    top corner of the screen \n
+    ->In the dialog box, you can see the food consumed per day, as well as information about it \n \n
+
+    At the top of the screen, you can see your height, weight, gender and age data, which \n
+    are used to calculate your minimum calorie intake (which is in the right \n
+    top corner of the screen). You can change them by clicking on the \"Change settings \" button and \n
+    enter new data in the dialog box. \n \n
+
+    The statistics of the food you have counted in the \"Food Calculator \" you can \n
+    look in the menu item \"My statistics \". \n \n
+</string>
+    <string name="help_text_step_counter_proc">
+    To open the pedometer, select the \"Pedometer \" menu item. \n \n
+
+    You can do the following with the pedometer: \n
+    ->Press the \"Start \" button to start the pedometer \n
+    ->Press the \"Stop \" button to stop the pedometer \n
+    ->Press the \"Reset \" button to reset the current \n
+       pedometer values ​​\n
+    ->Press the button \"Select target \", and in the appeared \n
+       dialog box select the number of steps, \n
+       which you want to pass (from this amount) \n
+       percentages will be calculated (degree of achievement \n
+       target), and then click the \"Confirm \" button \n \n
+</string>
+    <string name="help_text_articles_proc">
+    For helpful articles on sports, nutrition, and fitness, \n
+    select the menu item \"Articles \" \n
+    ->Then select the required article from the list \n \n
+</string>
+    <string name="help_text_statistics_proc">
+    To see the statistics calculated in the \"Food calculator \" \n
+    food, select the menu item \"My statistics \". \n \n
+
+    At the top of the screen, select the tab \"Week \" and \"Month \", \n
+    to view statistics for the week and month respectively. \n \n
+</string>
+    <string name="help_text_settings_proc">
+    To change some of the settings for your application, select \n
+    menu item \"Settings \". \n \n
+
+    There are 2 categories of settings in the application: \n \n
+
+    1) General application settings \n
+    2) Personal user settings \n \n
+
+              General Application Settings: \n \n
+
+    By selecting this item of settings, you can change the color \n
+    application theme. \n \n
+
+              User personal settings: \n \n
+
+    By selecting this item of settings, you can set such \n
+    data like your height, west, gender, age and name. \n \n
+</string>
+</resources>

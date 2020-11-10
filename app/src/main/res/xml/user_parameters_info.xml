@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title = "Your physical parameters">
+
+        <ListPreference
+            android:key = "PREF_USER_SEX"
+            android:title = "Your gender"
+            android:summary = "Select your gender. It will be used for calculations in the app's calculators"
+            android:entries ="@array/array_user_sex_options"
+            android:entryValues ="@array/array_user_sex_values"
+        android:dialogTitle = "Your gender"
+        android:defaultValue = "Male"
+        />
+        <EditTextPreference
+            android:key = "PREF_USER_NAME"
+            android:title = "Your name"
+            android:hint = "Your name"
+            android:inputType = "textPersonName"
+            />
+        <EditTextPreference
+            android:key = "PREF_USER_WEIGHT"
+            android:summary = "Select your weight. It will be used for calculations in the app's calculators"
+            android:title = "Your weight"
+            android:hint = "Your weight"
+            android:maxLength = "5"
+            android:inputType = "numberDecimal"
+            />
+        <EditTextPreference
+            android:key = "PREF_USER_HEIGHT"
+            android:summary = "Select your height. It will be used for calculations in the app's calculators"
+            android:title = "Your height"
+            android:hint = "Your height"
+            android:maxLength = "5"
+            android:inputType = "numberDecimal"
+            />
+        <EditTextPreference
+            android:key = "PREF_USER_AGE"
+            android:summary = "Select your age. It will be used for calculations in the app's calculators"
+            android:title = "Your age"
+            android:hint = "Your age"
+            android:maxLength ="3"
+            android:inputType ="number"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Colour">
+
+        <ListPreference
+            android:key="PREF_APP_THEME"
+            android:title="Theme of design"
+            android:summary="You can choose the color of the application interface"
+            android:entries="@array/app_theme_color_options"
+            android:entryValues="@array/app_theme_color_values"
+            android:dialogTitle="Theme"
+            android:defaultValue="Light"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ColorPrimary">#F99206</color>
+    <color name="ColorPrimaryDark">#DE8217</color>
+    <color name="mainBackground">#e2e2e2</color>
+    <color name="colorWhite">#e2e2e2</color>
+
+
+    <color name="DarkColorPrimary">#3eabee</color>
+    <!--<color name="DarkColorPrimary">#00acc1</color>-->
+    <color name="DarkColorPrimaryDark">#0B054D</color>
+    <color name="DarkMainBackground">#e2e2e2</color>
+
+
+    <color name="dashed_circular_progress_base">#FF4F00</color>
+    <color name="dashed_circular_progress_fill">#26ED31</color>
+    <color name="step_delta_calories_text_color">#2aa412</color>
+
+
+    <color name="black">#000000</color>
+    <color name="foreground_material_light">#000000</color>
+
+</resources>

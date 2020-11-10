@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '30.0.2'
+
+    defaultConfig {
+        applicationId "com.polant.projectsport"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:22.2.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:22.2.1'
+    implementation files ('libs/DashedCircularProgress-1.0.aar')
+    implementation files ('libs/achartengine-1.1.0.jar')
+}

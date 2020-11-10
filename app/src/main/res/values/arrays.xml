@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "app_theme_color_options">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name = "app_theme_color_values">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name = "array_life_style">
+        <item>Basic exchange of things </item>
+        <item>Minimum physical load </item>
+        <item>3 times a week </item>
+        <item>5 times a week </item>
+        <item>5 times a week (intensive) </item>
+        <item>Every day </item>
+        <item>2 times a day </item>
+        <item>Daily physical load + physical. work </item>
+    </string-array>
+
+    <string-array name = "array_user_sex_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name = "array_user_sex_values">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+</resources>
